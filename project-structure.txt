@@ -1,0 +1,23 @@
+project-root/
+├── index.html             # Main landing page
+├── styles/                # CSS folder
+│   └── main.css
+├── scripts/              # JavaScript folder
+│   └── main.js
+├── pages/                # Main subject pages
+│   ├── mathematics.html  # Math subject page
+│   ├── dsa.html         # Data Structures & Algorithms page
+│   └── programming.html  # Programming concepts page
+└── topics/              # Detailed topic pages
+    ├── math/
+    │   ├── linear-algebra.html
+    │   ├── calculus.html
+    │   └── statistics.html
+    ├── dsa/
+    │   ├── arrays.html
+    │   ├── linked-lists.html
+    │   └── sorting.html
+    └── programming/
+        ├── how-code-works.html
+        ├── variables.html
+        └── functions.html
