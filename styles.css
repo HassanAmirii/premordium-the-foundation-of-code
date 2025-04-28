@@ -1,0 +1,55 @@
+:root {
+  --cool-font: "Nunito Sans", sans-serif;
+  --font-size: 20px;
+  --width: 720px;
+  --background-color: #eb4034;
+  --sec-background-color: #232236;
+  --heading-color: #222;
+  --text-color: white;
+  --sec-text-color: #8d8d91;
+  --link-color: #a83432;
+  --visited-color: #8b6fcb;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+
+body {
+  font-family: var(--cool-font);
+  font-size: var(--font-size);
+  background-color: #222;
+  color: rgb(196, 181, 181);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+td,
+th,
+table {
+  border: 1px solid rgb(211, 192, 192);
+}
+table {
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
