@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premordium: The Foundation of Code</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <link rel="icon" type="image/svg+xml" href="/asset/icons/books (2).svg" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <h1><a href="/index.html">Premordium</a></h1>
+    <h2><a href="/index.html">The Foundation of Code</a></h2>
+    <br />
+
+    <h5 class="ocw">OpenCourseWare</h5>
+
+    <br />
+    <h5>Hassan2bit</h5>
+    <h5>
+      <a href="mailto:hassanamiri.ai@gmail.com">hassanamiri.ai@gmail.com</a>
+    </h5>
+    <a href="https://x.com/HassanAmiriiii">
+      <img
+        src="/asset/logos/x-logo-thin.png"
+        alt="X icon"
+        width="20"
+        height="20"
+      />
+    </a>
+    <a href="https://github.com/HassanAmirii/premordium-the-foundation-of-code">
+      <img
+        src="/asset/logos/github-logo-thin.png"
+        alt="github icon"
+        width="20"
+        height="20"
+      />
+    </a>
+
+    <br />
+    <br />
+
+    <h1>Compilers vs Interpreters</h1>
+    <hr />
+    <ul>
+      <li>
+        <strong
+          ><a href="#definition-and-purpose">Definition and Purpose</a></strong
+        >
+        <ul>
+          <li>
+            <a href="#understanding-compilers"
+              >Understanding what compilers are</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#understanding-interpreters"
+              >Understanding what interpreters are</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#primary-functions"
+              >Primary functions in translating high-level programming languages
+              into machine code</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#translation-process">Translation Process</a></strong>
+        <ul>
+          <li>
+            <a href="#compilers-translation"
+              >How compilers convert the entire source code into machine code
+              before execution</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#interpreters-translation"
+              >How interpreters translate and execute code line-by-line during
+              runtime</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#execution-speed">Execution Speed</a></strong>
+        <ul>
+          <li>
+            <a href="#compiled-code-speed"
+              >Compiled code generally runs faster</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#interpreted-code-speed"
+              >Interpreted code may run slower</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#memory-usage">Memory Usage</a></strong>
+        <ul>
+          <li>
+            <a href="#compilers-memory"
+              >Compilers may require more memory for the compilation process</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#interpreters-memory"
+              >Interpreters typically use less memory as they process code
+              on-the-fly</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#error-handling">Error Handling</a></strong>
+        <ul>
+          <li>
+            <a href="#compilers-error-handling"
+              >Compilers usually report all errors after processing the entire
+              code</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#interpreters-error-handling"
+              >Interpreters stop execution and report errors as soon as they are
+              encountered</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong
+          ><a href="#debugging-and-flexibility"
+            >Debugging and Flexibility</a
+          ></strong
+        >
+        <ul>
+          <li>
+            <a href="#compiled-languages-debugging"
+              >Compiled languages can be more challenging to debug</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#interpreted-languages-debugging"
+              >Interpreted languages offer easier debugging and more
+              flexibility</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#use-cases">Use Cases</a></strong>
+        <ul>
+          <li>
+            <a href="#compilers-use-cases"
+              >Compilers are often used for languages that require high
+              performance</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#interpreters-use-cases"
+              >Interpreters are commonly used for scripting languages</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#optimization">Optimization</a></strong>
+        <ul>
+          <li>
+            <a href="#compilers-optimization"
+              >Compilers can optimize code for better performance and resource
+              usage</a
+            >
+          </li>
+          <br />
+          <li>
+            <a href="#interpreters-optimization"
+              >Interpreters generally do not optimize code as extensively as
+              compilers</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#real-time-execution">Real-Time Execution</a></strong>
+        <ul>
+          <li>
+            <a href="#interpreters-real-time"
+              >Interpreters allow for real-time code execution and immediate
+              feedback</a
+            >
+          </li>
+        </ul>
+      </li>
+      <br />
+
+      <li>
+        <strong><a href="#historical-context">Historical Context</a></strong>
+        <ul>
+          <li>
+            <a href="#origins-compilers-interpreters"
+              >The origins and evolution of compilers and interpreters</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
