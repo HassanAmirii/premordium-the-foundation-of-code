@@ -1,3 +1,20 @@
 .container {
   padding: 12px;
 }
+
+.color-green {
+  color: rgb(110, 165, 78);
+}
+
+.code-design,
+.order-card {
+  background-color: black;
+  color: burlywood;
+  overflow: auto;
+  font-size: 0.7rem;
+}
+
+.order-card {
+  line-height: 10px;
+  padding-left: 60px;
+}
