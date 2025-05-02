@@ -126,12 +126,11 @@
       <br />
 
       <!-- the Notes  -->
-
       <p>
-        Have you wondered how a computer understand a human readeable code?,
-        Because as you and i both know the only things a computer understand are
-        just <span class="color-green">1s and 0s </span>, Take a look at the
-        python code below.
+        Have you wondered how a computer understands human readable code?
+        Because as you and I both know, the only things a computer understands
+        are just <span class="color-green">1s and 0s</span>. Take a look at the
+        Python code below.
       </p>
       <br />
       <div class="code-design">
@@ -149,17 +148,17 @@
       <br />
 
       <p>
-        The code above is simply easy to understand right, even for a non
-        technical person, But this syntax are pretty much gibberish to the
-        computer, Because it only understand
-        <span class="color-green">1s and 0s </span>.
+        The code above is simply easy to understand right, even for a
+        non-technical person. But this syntax is pretty much gibberish to the
+        computer, because it only understands
+        <span class="color-green">1s and 0s</span>.
       </p>
       <br />
       <p>
         The solution we've got now is to find a way to make the computer
-        understand our gibberish, That is, We need to find a way to turn our
+        understand our gibberish. That is, we need to find a way to turn our
         code into
-        <span class="color-green">1s and 0s </span>(machine language).
+        <span class="color-green">1s and 0s</span> (machine language).
       </p>
 
       <br /><br />
@@ -174,9 +173,9 @@
       </p>
       <br />
       <p>
-        let's take for example, you are in a restaurant, A waiter approached and
-        handed you a pen and piece of paper to write down your order, And you
-        wrote :
+        Let's take for example, you are in a restaurant. A waiter approached and
+        handed you a pen and piece of paper to write down your order, and you
+        wrote:
       </p>
 
       <br />
@@ -196,44 +195,349 @@
       <p>
         Now since your waiter here is a compiler, he's going to pile up your
         order list, give it to the chef to cook at once, and bring you back your
-        full order, Now that must be pretty fast right, Because all your order
+        full order. Now that must be pretty fast right? Because all your orders
         are processed at the same time.
       </p>
       <br />
       <p>
         So basically whenever you are using a compiler language, your code is
-        proccesed through compiling into an executable file (
-        <span class="color-green">1s and 0s </span>), and it gives you back the
-        output.
+        processed through compiling into an executable file (<span
+          class="color-green"
+          >1s and 0s</span
+        >), and it gives you back the output.
       </p>
+
+      <br /><br />
+
+      <h1 id="understanding-interpreters">Understanding Interpreters</h1>
+      <hr />
+      <br />
 
       <p>
         An interpreter language is also another interesting way we can convert
-        our code to binary(machine language) We could also use the waiter and
-        the chef story to simplify this So again you are at a restaurant and
-        approached by a waiter, a pen and a piece of paper was handed to you to
-        write down your order • Biscuit • Bread • Yam Now because you are
-        dealing with an interpreter waiter, your order won’t be processed at
-        once, rather one after the order, That is the waiter will take the first
-        oder on the list which is biscuit here, give it to the waiter to
-        prepare, deliver the order and repeat, until it finish processing the
-        last order, quiet slow compare to the compiler Waiter which processed
-        our order at once. So in summary, An interpreter language takes our code
-        and convert it into machine code line by line every time we run it
-        #TRANSLATION PROCESS So the answer is basically #analysation We’d need
-        an interpreter or a compiler to analyze our code for syntax errors,
-        #optimization Further our code will the be optimized through better
-        structuring so as to use less memory #conversion Once that is done, If
-        it a compiler our code will be converted into a byte code, think of byte
-        code as a code that support any hardware component, after then it’s
-        converted into an executable file (1s & 0s), and for compiler, once it’s
-        has converted into an executable file once, it doesn’t have to process
-        anything whenever you run it, it just loads pfwee. Whereas if it was an
-        interpreter language, our code will be converted to machine language
-        line by line every single time we run it #embed that video yt + credit
-        or just a link #PROS / CONS: compiler vs interpreter Execution speed
-        Memory usage Error handling Debugging and flexibility Use case
-        Optimization Real time execution
+        our code to binary (machine language). We could also use the waiter and
+        the chef story to simplify this.
+      </p>
+      <br />
+      <p>
+        So again you are at a restaurant and approached by a waiter. A pen and a
+        piece of paper was handed to you to write down your order:
+      </p>
+
+      <br />
+      <pre class="order-card"> 
+        <p>order list</p>
+        <ul>
+        <li>Biscuit</li>
+        <li>Bread</li>
+        <li>Yam</li>
+        </ul>
+      </pre>
+      <br />
+
+      <p>
+        Now because you are dealing with an interpreter waiter, your order won't
+        be processed at once, rather one after the other. That is, the waiter
+        will take the first order on the list which is biscuit here, give it to
+        the chef to prepare, deliver the order and repeat, until it finishes
+        processing the last order - quite slow compared to the compiler waiter
+        which processed our order at once.
+      </p>
+      <br />
+      <p>
+        So in summary, an interpreter language takes our code and converts it
+        into machine code line by line every time we run it.
+      </p>
+
+      <br /><br />
+
+      <h1 id="translation-process">Translation Process</h1>
+      <hr />
+      <br />
+
+      <p>So how does the translation actually happen? The process involves:</p>
+      <br />
+      <p>
+        <strong>#analysation</strong><br />
+        We'd need an interpreter or a compiler to analyze our code for syntax
+        errors.
+      </p>
+      <br />
+      <p>
+        <strong>#optimization</strong><br />
+        Further, our code will then be optimized through better structuring so
+        as to use less memory.
+      </p>
+      <br />
+      <p>
+        <strong>#conversion</strong><br />
+        Once that is done, if it's a compiler, our code will be converted into
+        byte code. Think of byte code as a code that supports any hardware
+        component. After that, it's converted into an executable file (<span
+          class="color-green"
+          >1s & 0s</span
+        >). And for a compiler, once it has converted into an executable file
+        once, it doesn't have to process anything whenever you run it, it just
+        loads pfwee.
+      </p>
+      <br />
+      <p>
+        Whereas if it was an interpreter language, our code will be converted to
+        machine language line by line every single time we run it.
+      </p>
+      <!-- #embed that video yt + credit or just a link -->
+
+      <br /><br />
+
+      <h1 id="pros-cons">Pros & Cons: Compiler vs Interpreter</h1>
+      <hr />
+      <br />
+
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Compiler</th>
+            <th>Interpreter</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Execution speed</td>
+            <td>Faster (entire code compiled once)</td>
+            <td>Slower (line by line execution)</td>
+          </tr>
+          <tr>
+            <td>Memory usage</td>
+            <td>Higher (needs to store entire compiled program)</td>
+            <td>Lower (only loads what's currently needed)</td>
+          </tr>
+          <tr>
+            <td>Error handling</td>
+            <td>All errors found before execution</td>
+            <td>Stops at first error during execution</td>
+          </tr>
+          <tr>
+            <td>Debugging</td>
+            <td>More difficult (separate compilation step)</td>
+            <td>Easier (immediate feedback)</td>
+          </tr>
+          <tr>
+            <td>Flexibility</td>
+            <td>Less flexible (needs recompilation)</td>
+            <td>More flexible (can change code on the fly)</td>
+          </tr>
+          <tr>
+            <td>Optimization</td>
+            <td>Better (more time to optimize)</td>
+            <td>Limited (optimizes on the go)</td>
+          </tr>
+          <tr>
+            <td>Real-time execution</td>
+            <td>No (compilation step first)</td>
+            <td>Yes (immediate execution)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h1 id="use-cases">Use Cases</h1>
+      <hr />
+      <br />
+
+      <h1 id="compilers-use-cases">Compilers Use Cases</h1>
+      <hr />
+      <br />
+
+      <p>
+        When should you use
+        <a
+          href="#"
+          class="wiki-link"
+          title="Compiled languages convert source code to machine code before execution"
+          >compiled languages</a
+        >? Here are the main situations:
+      </p>
+      <br />
+
+      <ul>
+        <li>
+          <strong>Speed matters</strong>: Games,
+          <a
+            href="#"
+            class="wiki-link"
+            title="Software that manages computer hardware and software resources"
+            >operating systems</a
+          >, and other performance-critical software
+        </li>
+        <li>
+          <strong>Limited resources</strong>:
+          <a
+            href="#"
+            class="wiki-link"
+            title="Computing systems built into devices with specific functions"
+            >Embedded systems</a
+          >
+          and
+          <a
+            href="#"
+            class="wiki-link"
+            title="Internet of Things - connected smart devices"
+            >IoT devices</a
+          >
+          with minimal memory
+        </li>
+        <li>
+          <strong>Distributing software</strong>: When you want users to run
+          your program without seeing your code
+        </li>
+      </ul>
+
+      <br />
+      <p>Common compiled languages: C, C++, Rust, Go</p>
+
+      <br /><br />
+
+      <h1 id="interpreters-use-cases">Interpreters Use Cases</h1>
+      <hr />
+      <br />
+
+      <p>
+        When do
+        <a
+          href="#"
+          class="wiki-link"
+          title="Interpreters execute code line by line at runtime"
+          >interpreters</a
+        >
+        shine? These situations:
+      </p>
+      <br />
+
+      <ul>
+        <li>
+          <strong>Quick development</strong>: Web development,
+          <a
+            href="#"
+            class="wiki-link"
+            title="Creating preliminary versions to test concepts"
+            >prototyping</a
+          >, when you need to test ideas fast
+        </li>
+        <li>
+          <strong>Learning to code</strong>: Getting immediate feedback helps
+          beginners
+        </li>
+        <li>
+          <strong>Scripting</strong>:
+          <a
+            href="#"
+            class="wiki-link"
+            title="Using code to automate repetitive tasks"
+            >Automation</a
+          >
+          tasks and simple tools
+        </li>
+        <li>
+          <strong>Cross-platform needs</strong>: When your code needs to run on
+          different systems easily
+        </li>
+      </ul>
+
+      <br />
+      <p>Common interpreted languages: Python, JavaScript, Ruby, PHP</p>
+
+      <br /><br />
+
+      <h1 id="historical-context">Historical Context</h1>
+      <hr />
+      <br />
+
+      <h1 id="origins-compilers-interpreters">The Origins and Evolution</h1>
+      <hr />
+      <br />
+
+      <p>How did we get here? A quick history:</p>
+      <br />
+
+      <ul>
+        <li>
+          <strong>1950s</strong>: First compiler created by
+          <a
+            href="#"
+            class="wiki-link"
+            title="Pioneer in computer programming and US Navy rear admiral"
+            >Grace Hopper</a
+          >
+          for the A-0 programming language
+        </li>
+        <li>
+          <strong>1957</strong>:
+          <a
+            href="#"
+            class="wiki-link"
+            title="FORmula TRANslation - early high-level programming language"
+            >FORTRAN</a
+          >
+          compiler released - first widely used high-level language
+        </li>
+        <li>
+          <strong>1960s</strong>:
+          <a
+            href="#"
+            class="wiki-link"
+            title="Beginner's All-purpose Symbolic Instruction Code"
+            >BASIC</a
+          >
+          interpreter made programming accessible to more people
+        </li>
+        <li>
+          <strong>1970s-80s</strong>:
+          <a
+            href="#"
+            class="wiki-link"
+            title="General-purpose programming language"
+            >C language</a
+          >
+          compiler became dominant for system programming
+        </li>
+        <li>
+          <strong>1990s</strong>: Java introduced "compile once, run anywhere"
+          with
+          <a
+            href="#"
+            class="wiki-link"
+            title="Intermediate code form between source code and machine code"
+            >bytecode</a
+          >
+          and a
+          <a
+            href="#"
+            class="wiki-link"
+            title="Software that creates isolated environment for running programs"
+            >virtual machine</a
+          >
+        </li>
+        <li>
+          <strong>2000s-now</strong>: Hybrid approaches becoming common (<a
+            href="#"
+            class="wiki-link"
+            title="Just-In-Time compilers that compile during execution"
+            >JIT compilers</a
+          >,
+          <a
+            href="#"
+            class="wiki-link"
+            title="Tools that convert code from one language to another"
+            >transpilers</a
+          >)
+        </li>
+      </ul>
+
+      <br />
+      <p>
+        Today, the line between compilers and interpreters is blurring. Many
+        modern languages use a mix of both approaches to get the best of both
+        worlds!
       </p>
     </div>
   </body>
