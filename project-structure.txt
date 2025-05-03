@@ -7,7 +7,7 @@ project-root/
 ├── pages/                # Main subject pages
 │   ├── mathematics.html  # Math subject page
 │   ├── dsa.html         # Data Structures & Algorithms page
-│   └── programming.html  # Programming concepts page
+│   └── cscore.html  # Programming concepts page
 └── topics/              # Detailed topic pages
     ├── math/
     │   ├── linear-algebra.html
@@ -17,7 +17,7 @@ project-root/
     │   ├── arrays.html
     │   ├── linked-lists.html
     │   └── sorting.html
-    └── programming/
+    └── cs core/
         ├── how-code-works.html
-        ├── variables.html
-        └── functions.html
+        ├── compilervsinterpreter.html
+        └── operating system.html
