@@ -127,38 +127,38 @@
 
       <!-- the Notes  -->
       <p>
-        Have you wondered how a computer understands human readable code?
-        Because as you and I both know, the only things a computer understands
-        are just <span class="color-green">1s and 0s</span>. Take a look at the
-        Python code below.
+        Have you ever wondered how a computer understands human-readable code?
+        As you and I both know, the only thing a computer truly understands is
+        just
+        <span class="color-green">(1s and 0s)</span>. Take a look at the Python
+        code below.
       </p>
       <br />
       <div class="code-design">
         <pre class="python-code">
-        <code >
-        A = 1
-        B = 2
-
-        print(f"i have {A + B} apples")
+        <code>
+      A = 1
+      B = 2
+      
+      print(f"I have {A + B} apples")
         </code>
-
-        output: i have 3 apples
-      </pre>
+      
+        output: I have 3 apples
+        </pre>
       </div>
       <br />
 
       <p>
-        The code above is simply easy to understand right, even for a
-        non-technical person. But this syntax is pretty much gibberish to the
-        computer, because it only understands
+        The code above is simple and easy to understand, right? Even for a
+        non-technical person. But to a computer, this syntax is essentially
+        gibberish — because it only understands
         <span class="color-green">1s and 0s</span>.
       </p>
       <br />
       <p>
-        The solution we've got now is to find a way to make the computer
-        understand our gibberish. That is, we need to find a way to turn our
-        code into
-        <span class="color-green">1s and 0s</span> (machine language).
+        The solution is to find a way to make the computer understand our
+        "gibberish". That means we need a method to convert our code into
+        <span class="color-green">1s and 0s</span> — machine language.
       </p>
 
       <br /><br />
@@ -168,43 +168,41 @@
       <br />
 
       <p>
-        Now one of the ways we can convert our code into machine readable
-        language is to use a compiler language.
+        One way to convert our code into machine-readable language is by using a
+        compiler.
       </p>
       <br />
       <p>
-        Let's take for example, you are in a restaurant. A waiter approached and
-        handed you a pen and piece of paper to write down your order, and you
-        wrote:
+        Let’s use a restaurant analogy. Imagine you're in a restaurant. A waiter
+        approaches and hands you a pen and a piece of paper to write down your
+        order. You write:
       </p>
 
       <br />
       <pre class="order-card"> 
-        <p>order list</p>
+        <p>Order List</p>
         <ul>
-        <li>sharwama + beef</li>
-        <li>a large piece of bread</li>
-        <li>honey and butter</li>
-        <li>pizza and spaghetti</li>
-        <li>a human medium fried liver</li>
-        <li>fufu and garri....</li>
+          <li>Sharwama + beef</li>
+          <li>A large piece of bread</li>
+          <li>Honey and butter</li>
+          <li>Pizza and spaghetti</li>
+          <li>Medium fried liver</li>
+          <li>Fufu and garri...</li>
         </ul>
       </pre>
       <br />
 
       <p>
-        Now since your waiter here is a compiler, he's going to pile up your
-        order list, give it to the chef to cook at once, and bring you back your
-        full order. Now that must be pretty fast right? Because all your orders
-        are processed at the same time.
+        Since the waiter in this case represents a compiler, he takes the entire
+        order list, gives it to the chef to prepare everything at once, and then
+        brings you the full meal. That’s pretty fast, right? Because all your
+        orders are processed in one go.
       </p>
       <br />
       <p>
-        So basically whenever you are using a compiler language, your code is
-        processed through compiling into an executable file (<span
-          class="color-green"
-          >1s and 0s</span
-        >), and it gives you back the output.
+        Similarly, when using a compiled language, your code is first converted
+        into an executable file — <span class="color-green">1s and 0s</span> —
+        and then you get your output.
       </p>
 
       <br /><br />
@@ -214,39 +212,38 @@
       <br />
 
       <p>
-        An interpreter language is also another interesting way we can convert
-        our code to binary (machine language). We could also use the waiter and
-        the chef story to simplify this.
+        An interpreter is another interesting way to convert code to binary
+        (machine language). Let's go back to our restaurant analogy to
+        understand it better.
       </p>
       <br />
       <p>
-        So again you are at a restaurant and approached by a waiter. A pen and a
-        piece of paper was handed to you to write down your order:
+        Once again, you're at a restaurant and a waiter hands you a pen and a
+        piece of paper to write down your order:
       </p>
 
       <br />
       <pre class="order-card"> 
-        <p>order list</p>
+        <p>Order List</p>
         <ul>
-        <li>Biscuit</li>
-        <li>Bread</li>
-        <li>Yam</li>
+          <li>Biscuit</li>
+          <li>Bread</li>
+          <li>Yam</li>
         </ul>
       </pre>
       <br />
 
       <p>
-        Now because you are dealing with an interpreter waiter, your order won't
-        be processed at once, rather one after the other. That is, the waiter
-        will take the first order on the list which is biscuit here, give it to
-        the chef to prepare, deliver the order and repeat, until it finishes
-        processing the last order - quite slow compared to the compiler waiter
-        which processed our order at once.
+        This time, since you're dealing with an interpreter-type waiter, the
+        process changes. He will take the first order (biscuit), give it to the
+        chef to prepare, deliver it to you, then go back for the second one, and
+        so on — processing one item at a time. It's clearly slower than the
+        compiler waiter, who processed everything at once.
       </p>
       <br />
       <p>
-        So in summary, an interpreter language takes our code and converts it
-        into machine code line by line every time we run it.
+        In short, an interpreted language processes your code line by line every
+        time you run it.
       </p>
 
       <br /><br />
@@ -255,36 +252,37 @@
       <hr />
       <br />
 
-      <p>So how does the translation actually happen? The process involves:</p>
-      <br />
       <p>
-        <strong>#analysation</strong><br />
-        We'd need an interpreter or a compiler to analyze our code for syntax
-        errors.
+        So how does the actual translation happen? The process involves three
+        key stages:
+      </p>
+      <br />
+
+      <p>
+        <strong>#1 Analysis</strong><br />
+        An interpreter or compiler analyzes your code for syntax errors.
       </p>
       <br />
       <p>
-        <strong>#optimization</strong><br />
-        Further, our code will then be optimized through better structuring so
-        as to use less memory.
+        <strong>#2 Optimization</strong><br />
+        The code is then optimized for better structure and memory efficiency.
       </p>
       <br />
       <p>
-        <strong>#conversion</strong><br />
-        Once that is done, if it's a compiler, our code will be converted into
-        byte code. Think of byte code as a code that supports any hardware
-        component. After that, it's converted into an executable file (<span
-          class="color-green"
-          >1s & 0s</span
-        >). And for a compiler, once it has converted into an executable file
-        once, it doesn't have to process anything whenever you run it, it just
-        loads pfwee.
+        <strong>#3 Conversion</strong><br />
+        - If you're using a compiler, the code is converted into bytecode, which
+        is compatible across hardware types. This bytecode is then turned into
+        an executable file — <span class="color-green">1s and 0s</span>.
+        <br /><br />
+        - Once compiled, the program doesn’t need to reprocess anything. It
+        simply runs instantly.
       </p>
       <br />
       <p>
-        Whereas if it was an interpreter language, our code will be converted to
-        machine language line by line every single time we run it.
+        - If you're using an interpreter, your code is translated into machine
+        language line by line — every time you execute it.
       </p>
+
       <!-- #embed that video yt + credit or just a link -->
 
       <br /><br />
@@ -339,7 +337,7 @@
           </tr>
         </tbody>
       </table>
-
+      <br /><br />
       <h1 id="use-cases">Use Cases</h1>
       <hr />
       <br />
@@ -402,14 +400,14 @@
       <br />
 
       <p>
-        When do you
+        When should you use
         <a
           href="https://en.wikipedia.org/wiki/Interpreter_(computing)"
           target="_blank"
           title="Interpreters execute code line by line at runtime"
-          >interpreters</a
+          >interpreted</a
         >
-        ? Here are the main situations:
+        languages? Here are the main situations:
       </p>
       <br />
 
@@ -533,8 +531,37 @@
         </li>
       </ul>
 
-      <br />
-      <p>The end :/</p>
+      <br /><br />
+
+      <footer>
+        <p class="continue-reading">
+          Continue reading:
+          <a href="howacomputerworks.html">How Do Computers Really Work?</a>
+        </p>
+
+        <p class="contribute">
+          Want to contribute?
+          <a
+            href="https://github.com/HassanAmirii/premordium-the-foundation-of-code"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Contribute on GitHub"
+          >
+            visit
+            <img
+              src="/asset/logos/github-logo-thin.png"
+              alt="GitHub icon"
+              width="20"
+              height="20"
+              style="vertical-align: middle; margin-left: 5px"
+            />
+          </a>
+        </p>
+        <p>
+          made with &hearts; by <a href="hassan2bit.vercel.app">Hassan2bit</a>
+        </p>
+        <p>Premordium v1.0 2025</p>
+      </footer>
     </div>
   </body>
 </html>
