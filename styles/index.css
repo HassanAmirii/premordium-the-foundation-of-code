@@ -83,3 +83,16 @@ footer {
 .content-container {
   padding: 12px;
 }
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (min-width: 1000px) {
+  .center-all {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+}
